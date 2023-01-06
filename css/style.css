@@ -1,0 +1,180 @@
+/* comandos gerais */
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #0e1229;
+    color: #cecece;
+    text-align:justify;
+    
+}
+
+/* video template 3D superior */
+video {
+    width: 100%;
+    height: 100%; 
+}
+
+a{
+    color: #cecece;
+    
+}
+
+a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+.bgFooter{
+    background-color:#050204;
+    color: #cecece;
+    text-align: center;
+}
+
+
+/* fim comandos gerais */
+
+/* h1 superior */
+.DivBemVindo{
+text-align: center;
+}
+
+h2{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+/* NavBar */
+.bgNav{
+    background-color:#050204;
+    color: #cecece;
+}
+
+
+/* Fim NavBar */
+
+
+/* CSS Slider */
+
+
+/* end css Slider */
+
+
+
+
+/* estilização projetos */
+
+
+.sectionProject{
+    box-shadow: #3c153d 0px 5px 100px -20px, 
+    #3c153d 0px 30px 60px -30px, 
+    #3c153d 0px -2px 6px 0px inset;
+    border-radius: 1em;
+}
+
+
+.imgproject{
+    width: 100%;
+}
+
+
+
+/* fim estilização projetos */
+
+
+
+
+/* .DivBemVindo{
+    float: left;
+    margin-top: -900px;
+    position: relative;
+    color: #fff;
+
+} */
+
+
+
+/* config inicial Mobile first */
+.icon{
+    font-size: 30px;
+    margin-left: 100%;
+    }
+
+    i{
+        
+        font-size: 30px; 
+        margin-top: 30px;
+        margin-bottom: -70px;
+        margin-left: 43%;
+        float: left;
+    }
+
+
+    .pFooter{
+        text-align: center;
+    }
+
+
+/* @medias de responsividade */
+/* @media (max-width: 575.98px) { ... } */
+
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    i{
+        margin-left: 46.5%;
+    }
+
+        p, a{
+            font-size: large;
+        }
+
+        small{
+            font-size: medium;
+        }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    
+    i{     
+        margin-left: 46.5%;  
+    }
+
+ }
+
+/* Dispositivos large (desktops com 992px ou mais) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    i{
+        margin-left: 47.5%;
+    
+     }
+}
+ /* Dispositivos extra large (desktops grandes com 1200px ou mais) */
+@media (min-width: 1200px) {
+    i{
+        margin-left: 48.5%;
+    
+     }
+
+     h1{
+        font-size: 3rem;
+     }
+
+     h2{
+        font-size: 2rem;
+     }
+
+     p{
+        font-size: x-large;
+     }
+
+     small{
+        font-size: larger;
+     }
+}
