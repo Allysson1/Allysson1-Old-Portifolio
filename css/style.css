@@ -58,13 +58,6 @@ h2{
 /* Fim NavBar */
 
 
-/* CSS Slider */
-
-
-/* end css Slider */
-
-
-
 
 /* estilização projetos */
 
@@ -104,14 +97,11 @@ h2{
     margin-left: 100%;
     }
 
-    i{
-        
-        font-size: 30px; 
-        margin-top: 30px;
-        margin-bottom: -70px;
-        margin-left: 43%;
-        float: left;
-    }
+.iconProjeto{
+    font-size: 30px;
+}
+
+
 
 
     .pFooter{
@@ -126,10 +116,9 @@ h2{
 /* Small devices (landscape phones, less than 768px) */
 @media (min-width: 576px) and (max-width: 767.98px) {
 
-    i{
-        margin-left: 46.5%;
-    }
-
+    .icon{
+        margin-left: 0%;
+        }
         p, a{
             font-size: large;
         }
@@ -142,25 +131,19 @@ h2{
 /* Medium devices (tablets, less than 992px) */
 @media (min-width: 768px) and (max-width: 991.98px) { 
     
-    i{     
-        margin-left: 46.5%;  
-    }
+    .icon{
+        margin-left: 0%;
+        }
 
  }
 
 /* Dispositivos large (desktops com 992px ou mais) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
-    i{
-        margin-left: 47.5%;
-    
-     }
-}
+/* @media (min-width: 992px) and (max-width: 1199.98px) {
+
+} */
  /* Dispositivos extra large (desktops grandes com 1200px ou mais) */
 @media (min-width: 1200px) {
-    i{
-        margin-left: 48.5%;
-    
-     }
+ 
 
      h1{
         font-size: 3rem;
