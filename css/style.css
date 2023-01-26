@@ -138,12 +138,20 @@ h2{
  }
 
 /* Dispositivos large (desktops com 992px ou mais) */
-/* @media (min-width: 992px) and (max-width: 1199.98px) {
+@media (min-width: 992px) and (max-width: 1199.98px) {
 
-} */
+    .icon{
+        margin-left: 0%;
+        }
+}
+
  /* Dispositivos extra large (desktops grandes com 1200px ou mais) */
 @media (min-width: 1200px) {
  
+    .icon{
+        margin-left: 0%;
+        }
+
 
      h1{
         font-size: 3rem;
