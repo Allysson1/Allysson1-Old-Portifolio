@@ -4,20 +4,9 @@ html{
     scroll-behavior: smooth;
 }
 
-body {
-    overflow-x: hidden;
-    background-color: #0e1229;
-    color: #cecece;
-    text-align:justify;
-    
-}
+
 
 /* video template 3D superior */
-video {
-    width: 100%;
-    height: 100%; 
-}
-
 a{
     color: #cecece;
     
@@ -70,28 +59,29 @@ h2{
 }
 
 
-.imgproject{
-    width: 100%;
-}
-
-
 
 /* fim estilização projetos */
 
 
 
 
-/* .DivBemVindo{
-    float: left;
-    margin-top: -900px;
-    position: relative;
-    color: #fff;
 
-} */
 
 
 
 /* config inicial Mobile first */
+
+body {
+    overflow-x: hidden;
+    background-image: url(/images/elipse_mobile@1-414x736.jpg);
+    background-repeat: no-repeat;
+    background-color: #0e1229;
+    color: #cecece;
+    text-align:justify;
+    
+}
+
+
 .icon{
     font-size: 30px;
     margin-left: 100%;
@@ -109,12 +99,29 @@ h2{
     }
 
 
+    .DivBemVindo{
+        margin-top: 10rem;
+        color: #fff;
+    
+    }
+
 /* @medias de responsividade */
-/* @media (max-width: 575.98px) { ... } */
+@media (max-width: 575.98px) { 
+    body {
+        background-image: url(/images/elipse_mobile@1-414x736.jpg);
+        background-position: center top;
+    }
+}
 
 
 /* Small devices (landscape phones, less than 768px) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+
+
+    body {
+        background-image: url(/images/elipse\ tablet@1-768x1024.jpg);
+        background-position: center top;
+    }
 
     .icon{
         margin-left: 0%;
@@ -131,6 +138,14 @@ h2{
 /* Medium devices (tablets, less than 992px) */
 @media (min-width: 768px) and (max-width: 991.98px) { 
     
+
+    
+
+    body {
+        background-image: url(/images/elipse@1-1920x1080.jpg );
+        background-position: center top;
+    }
+
     .icon{
         margin-left: 0%;
         }
@@ -140,6 +155,11 @@ h2{
 /* Dispositivos large (desktops com 992px ou mais) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
+    body {
+        background-image: url(/images/elipse@1-1920x1080.jpg );
+        background-position: center top;
+    }
+
     .icon{
         margin-left: 0%;
         }
@@ -148,6 +168,11 @@ h2{
  /* Dispositivos extra large (desktops grandes com 1200px ou mais) */
 @media (min-width: 1200px) {
  
+    body {
+        background-image: url(/images/elipse@1-1920x1080.jpg );
+        background-position: center top;
+    }
+
     .icon{
         margin-left: 0%;
         }

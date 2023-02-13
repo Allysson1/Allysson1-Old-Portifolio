@@ -1,195 +1,155 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
-    <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
-    <title>Meu Portfólio</title>
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-  </head>
 
-  <body>
-    <header id="topo">
-      <nav class="navbar navbar-expand-lg navbar-dark bgNav">
-        <a class="navbar-brand a" href="index.html">
-          <img src="images/minha-logo-gray.png" width="30" height="30" alt="A letra 'A' com um tom de cinza que me representa">
-        </a>
-        <button class="float right navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Alterna navegação">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="#projetos">Projetos <span class="sr-only">(Página atual)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#conhecimentos">Conhecimentos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contatos">Contatos</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
- 
-    <div>
-      <video class="" autoplay muted loop>
-        <source loading="lazy" src="images/project-3-d-copy.webm" type="video/webm" />
-      </video>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+  <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css" />
+  <title>Meu Portfólio</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+</head>
 
-      <div class="col-12 DivBemVindo pb-5">
-        <h1 >Bem-vindo ao Meu Portfólio</h1>
+<body>
+  <header id="topo">
+    <nav class="navbar navbar-expand-lg navbar-dark bgNav">
+      <a class="navbar-brand a" href="index.html">
+        <img src="images/minha-logo-gray.png" width="30" height="30"
+          alt="A letra 'A' com um tom de cinza que me representa" />
+      </a>
+      <button class="float right navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#projetos">Projetos <span class="sr-only">(Página atual)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#conhecimentos">Conhecimentos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contatos">Contatos</a>
+          </li>
+        </ul>
       </div>
+    </nav>
+  </header>
 
 
-
+  <main class="container">
+    <div class="col-12 col-sm-12 float-start DivBemVindo pb-5">
+      <h1>Bem-vindo ao Meu Portfólio</h1>
     </div>
 
-    <main class="container">
-      <article>
-        <h2 class="col-12 pb-2" >Apresentação:</h2>
+    <article class="col-12 float-end ">
+      <h2 class="col-12 pb-2 pb-md-0 pt-5">Apresentação:</h2>
 
-        <p class="" spellcheck="true"> 
-          <!-- refazer o resumo -->
-          Olá, é muito bom ver que você tirou um pouquinho do seu tempo precioso
-          para vir aqui e me conhecer melhor. Sou estudante de Sistemas para
-          internet e no momento estou no 5° semestre. Tenho um amor enorme por
-          essa área que só cresce a cada dia. Minha maior meta é me
-          tornar um ótimo desenvolvedor full Stack.
+      <p class="" spellcheck="true">
+        <!-- refazer o resumo -->
+        Olá, é muito bom ver que você tirou um pouquinho do seu tempo precioso
+        para vir aqui e me conhecer melhor. Sou estudante de Sistemas para
+        internet e no momento estou no 5° semestre. Tenho um amor enorme por
+        essa área que só cresce a cada dia. Minha maior meta é me tornar um
+        ótimo desenvolvedor full Stack.
+      </p>
+    </article>
+
+
+    <h2 class="projetos pt-5" id="projetos">
+      Projetos desenvolvidos na faculdade:
+    </h2>
+
+    <div class="divProjetos row align-center">
+      <section class="sectionProject ml-3 mb-5 ml-md-4 ml-lg-5 col-11 col-md-5 float-start">
+        <img class="mt-3 mb-3 mt-sm-4 col-sm-12 col-md-12 imgproject" src="images/git.png"
+          alt="Imagem que mostra umm demostrativo do projeto do Tutorial Git, com uma cor de fundo amarela, menu lateral preto, letras em branco dentro de um espaço cinza escuro e imagens representando o git e o mascote do GitHub" />
+        <p class="pSection p-2">
+          Um projeto que visa ensinar pessoas sobre o git de um jeito fácil.
         </p>
-      </article>
+        <br />
+        <a class="row col-12" href="https://github.com/Allysson1/TutorialGit" target="_blank">
+          <span class="col-2 bi bi-github iconProjeto"></span>
+          <p class="col-10">Repositório no GitHub</p>
+        </a>
+      </section>
 
-      <h2 class="projetos pt-5 pb-3" id="projetos">Projetos desenvolvidos na faculdade:</h2>
-
-      <div class="divProjetos row align-center">
-
-        <section class="sectionProject ml-3 mb-5 ml-md-4 ml-lg-5 col-11 col-md-5 float-start">
-         
-            <img
-              class="mt-3 mb-3 mt-sm-4 col-sm-12 col-md-12 imgproject"
-              src="images/git.png"
-              alt="Imagem que mostra umm demostrativo do projeto do Tutorial Git, com uma cor de fundo amarela, menu lateral preto, letras em branco dentro de um espaço cinza escuro e imagens representando o git e o mascote do GitHub"
-            />
-            <p class="pSection p-2">
-              Um projeto que visa ensinar pessoas sobre o git de um jeito fácil.
-            </p>
-            <br />
-            <a class="row col-12" href="https://github.com/Allysson1/TutorialGit" target="_blank">
-              <span class="col-2 bi bi-github iconProjeto"></span>
-              <p class="col-10">Repositório no GitHub</p>
-          </a>
-        </section>
-
-        <section class="sectionProject ml-3 ml-md-5 mb-5 col-11 col-md-5 float-end">
-         
-            <img
-              class="mt-3 mb-3 mt-sm-4 col-sm-12 col-md-12 imgproject"
-              src="images/projetointegrador1.png"
-              alt="immagem que mostra um demostrativo do projeto audiovisual brasileiro com a cor de fundo preta, uma imagem no top com os principais atores da série reality Z, com uma critica sobre a serie em baixo da imagem"
-            />
-            <p class="p-2">
-              Um pouco do audiovisual brasileiro resumido em um site
-            </p>
-            <a class="row col-12" href="https://github.com/Allysson1/projeto-integrador-1semestre" target="_blank">
-              <span class="col-2 bi bi-github iconProjeto"></span>
-              <p class="col-10">Repositório no GitHub</p>
-          </a>
-        </section>
- 
-        <section class="sectionProject ml-3 mb-5 ml-md-4 ml-lg-5 col-11 col-md-5 float-start">
-        
-            <img
-              class="mt-3 mb-3 mt-sm-4 col-sm-12 col-md-12 imgproject"
-              src="images/skeleton.png"
-              alt="imagem que representa uma parte do projeeot utilizando o skeleton. Porjeto baseado em um banco de imagens, com cor de fundo azul clara, categorias de imagens para escolha e imagens na parte de baixo com um estilo CyberPunk"
-            />
-            <p class="p-2">
-              Trabalhando um pouco com Skeleton
-            </p>
-            <a class="row col-12" href="https://github.com/Allysson1/5pagskeleton" target="_blank">
-              <span class="col-2 bi bi-github iconProjeto"></span>
-              <p class="col-10">Repositório no GitHub</p>
-            </a>
-
-        </section>
-
-        <section class="sectionProject ml-3 mb-5 ml-md-5 col-11 col-md-5 float-end">
-          
-            <img
-              class="mt-3 mb-3 mt-sm-4 col-sm-12 col-md-12 imgproject"
-              src="images/trabalhophp.png"
-              alt="Imagem que repressenta o projeto para mostrar os principais conceitos de fila, pilha e lista do Php. Site com menu lateral e cabeçalho em cor preta,, com a parte do conteúdo em cinza claro e contém a presença de imagens mostrando os códigos "
-            />
-            <p class="p-2">
-              Conceitos básicos do php em uma página Web
-            </p>
-            <a class="row col-12" href="https://github.com/Allysson1/trabalho-php" target="_blank">
-              <span class="col-2 bi bi-github iconProjeto"></span>
-              <p class="col-10">Repositório no GitHub</p>
-            </a>
-        </section>
-
-        <section class="sectionProject ml-3 mb-5 ml-md-4 ml-lg-5 col-11 col-md-5 float-start">
-            <img
-              class="mt-3 mb-3 mt-sm-4 col-sm-12 col-md-12 imgproject"
-              src="images/projetointegrador2.png"
-              alt="iimagem que representa o projeto Integrador do segundo semestre de 2021. Tem o cabeçalho e cor amarela, cor de fundo da página branco. com uma imagem grande no topo com o nome corona virus, e abaixo mostrando imagens que direcionam para as outras telas do site"
-            />
-            <p class="p-2">
-             Um portal para trazer informações sobre o Covid-19
-            </p>
-            <a class="row col-12" href="https://github.com/Allysson1/Projeto-integrador-2semestre" target="_blank">
-              <span class="col-2 bi bi-github iconProjeto"></span>
-              <p class="col-10">Repositório no GitHub</p>
-            </a>
-
-        </section>
-
-
-
-
-
-      <h2 class="col-12 projetos pt-5 pb-5" id="projetos">Projetos Pessoais:</h2>
-
+      <section class="sectionProject ml-3 ml-md-5 mb-5 col-11 col-md-5 float-end">
+        <img class="mt-3 mb-3 mt-sm-4 col-sm-12 col-md-12 imgproject" src="images/projetointegrador1.png"
+          alt="immagem que mostra um demostrativo do projeto audiovisual brasileiro com a cor de fundo preta, uma imagem no top com os principais atores da série reality Z, com uma critica sobre a serie em baixo da imagem" />
+        <p class="p-2">
+          Um pouco do audiovisual brasileiro resumido em um site
+        </p>
+        <a class="row col-12" href="https://github.com/Allysson1/projeto-integrador-1semestre" target="_blank">
+          <span class="col-2 bi bi-github iconProjeto"></span>
+          <p class="col-10">Repositório no GitHub</p>
+        </a>
+      </section>
 
       <section class="sectionProject ml-3 mb-5 ml-md-4 ml-lg-5 col-11 col-md-5 float-start">
-  
-        <img
-          class="mt-3 mb-3 mt-sm-4 col-sm-12 col-md-12 imgproject"
-          src="images/snake.png"
-          alt="Imagem que mostra um demostrativo do projeto do famoso jogo da combrinha."
-        />
+        <img class="mt-3 mb-3 mt-sm-4 col-sm-12 col-md-12 imgproject" src="images/skeleton.png"
+          alt="imagem que representa uma parte do projeeot utilizando o skeleton. Porjeto baseado em um banco de imagens, com cor de fundo azul clara, categorias de imagens para escolha e imagens na parte de baixo com um estilo CyberPunk" />
+        <p class="p-2">Trabalhando um pouco com Skeleton</p>
+        <a class="row col-12" href="https://github.com/Allysson1/5pagskeleton" target="_blank">
+          <span class="col-2 bi bi-github iconProjeto"></span>
+          <p class="col-10">Repositório no GitHub</p>
+        </a>
+      </section>
+
+      <section class="sectionProject ml-3 mb-5 ml-md-5 col-11 col-md-5 float-end">
+        <img class="mt-3 mb-3 mt-sm-4 col-sm-12 col-md-12 imgproject" src="images/trabalhophp.png"
+          alt="Imagem que repressenta o projeto para mostrar os principais conceitos de fila, pilha e lista do Php. Site com menu lateral e cabeçalho em cor preta,, com a parte do conteúdo em cinza claro e contém a presença de imagens mostrando os códigos " />
+        <p class="p-2">Conceitos básicos do php em uma página Web</p>
+        <a class="row col-12" href="https://github.com/Allysson1/trabalho-php" target="_blank">
+          <span class="col-2 bi bi-github iconProjeto"></span>
+          <p class="col-10">Repositório no GitHub</p>
+        </a>
+      </section>
+
+      <section class="sectionProject ml-3 mb-5 ml-md-4 ml-lg-5 col-11 col-md-5 float-start">
+        <img class="mt-3 mb-3 mt-sm-4 col-sm-12 col-md-12 imgproject" src="images/projetointegrador2.png"
+          alt="iimagem que representa o projeto Integrador do segundo semestre de 2021. Tem o cabeçalho e cor amarela, cor de fundo da página branco. com uma imagem grande no topo com o nome corona virus, e abaixo mostrando imagens que direcionam para as outras telas do site" />
+        <p class="p-2">Um portal para trazer informações sobre o Covid-19</p>
+        <a class="row col-12" href="https://github.com/Allysson1/Projeto-integrador-2semestre" target="_blank">
+          <span class="col-2 bi bi-github iconProjeto"></span>
+          <p class="col-10">Repositório no GitHub</p>
+        </a>
+      </section>
+
+      <h2 class="col-12 projetos pt-5 pb-5" id="projetos">
+        Projetos Pessoais:
+      </h2>
+
+      <section class="sectionProject ml-3 mb-5 ml-md-4 ml-lg-5 col-11 col-md-5 float-start">
+        <img class="mt-3 mb-3 mt-sm-4 col-sm-12 col-md-12 imgproject" src="images/snake.png"
+          alt="Imagem que mostra um demostrativo do projeto do famoso jogo da combrinha." />
         <p class="pSection p-2">
-         Desenvolvi esse joguinho no meu tempo de férias da faculdade, com o código totamlmente feito em javascript
+          Desenvolvi esse joguinho no meu tempo de férias da faculdade, com o
+          código totamlmente feito em javascript
         </p>
         <br />
         <a class="row col-12" href="https://github.com/Allysson1/Snake-game" target="_blank">
           <span class="col-2 bi bi-github iconProjeto"></span>
           <p class="col-10">Repositório no GitHub</p>
-      </a>
-      <a class="row col-12" href="https://allysson1.github.io/Snake-game/" target="_blank">
-        <span class="col-2 bi-link-45deg iconProjeto"></span>
-        <p class="col-10">Jogue um pouco</p>
-    </a>
-    </section>
+        </a>
+        <a class="row col-12" href="https://allysson1.github.io/Snake-game/" target="_blank">
+          <span class="col-2 bi-link-45deg iconProjeto"></span>
+          <p class="col-10">Jogue um pouco</p>
+        </a>
+      </section>
 
-
-    <section class="sectionProject ml-3 ml-md-5 mb-5 col-11 col-md-5 float-end">
-     
-        <img
-          class="mt-3 mb-3 mt-sm-4 col-sm-12 col-md-12 imgproject"
-          src="images/matrix.png"
-          alt="immagem que mostra um demostrativo do projeto Matrix, que replica a famosa cena dos códigos verdes do filme Matrix"
-        />
+      <section class="sectionProject ml-3 ml-md-5 mb-5 col-11 col-md-5 float-end">
+        <img class="mt-3 mb-3 mt-sm-4 col-sm-12 col-md-12 imgproject" src="images/matrix.png"
+          alt="immagem que mostra um demostrativo do projeto Matrix, que replica a famosa cena dos códigos verdes do filme Matrix" />
         <p class="p-2">
-          Desenvolvi essa cópia da Matrix no meu tempo de férias da faculdade, com o código totamlmente feito em javascript
+          Desenvolvi essa cópia da Matrix no meu tempo de férias da faculdade,
+          com o código totamlmente feito em javascript
         </p>
         <a class="row col-12" href="https://github.com/Allysson1/Matrix" target="_blank">
           <span class="col-2 bi bi-github iconProjeto"></span>
@@ -202,132 +162,120 @@
         </a>
       </section>
 
-
       <section class="sectionProject ml-3 mb-5 ml-md-4 ml-lg-5 col-11 col-md-5 float-start">
-        
-        <img
-          class="mt-3 mb-3 mt-sm-4 col-sm-12 col-md-12 imgproject"
-          src="images/template3d.png"
-          alt="Imagem que mostra um demostrativo do projeto do famoso jogo da combrinha."
-        />
+        <img class="mt-3 mb-3 mt-sm-4 col-sm-12 col-md-12 imgproject" src="images/template3d.png"
+          alt="Imagem que mostra um demostrativo do projeto do famoso jogo da combrinha." />
         <p class="pSection p-2">
-         Template 3D que fiz no meu tempinho livre :)          
+          Template 3D que fiz no meu tempinho livre :)
         </p>
         <br />
-        
-      <a class="row col-12" href="https://my.spline.design/project3dcopy-e51737a48873d6845dcdf5a9e92d5355/" target="_blank">
-        <span class="col-2 bi-link-45deg iconProjeto"></span>
-        <p class="col-10">Clique aqui para ver rodando.
-          <br>
-          Passe o mouse sobre para ver a interação.
-        </p>
-    </a>
-    </section>
 
+        <a class="row col-12" href="https://my.spline.design/project3dcopy-e51737a48873d6845dcdf5a9e92d5355/"
+          target="_blank">
+          <span class="col-2 bi-link-45deg iconProjeto"></span>
+          <p class="col-10">
+            Clique aqui para ver rodando.
+            <br />
+            Passe o mouse sobre para ver a interação.
+          </p>
+        </a>
+      </section>
+    </div>
+
+    <!-- inicio code slide -->
+
+    <h2 id="conhecimentos" class="p-5">
+      Conhecimentos adquiridos em meus estudos:
+    </h2>
+    <div id="carouselExampleIndicators" class="carousel slide sectionProject" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="images/frontend@2-1920x1009.png"
+            alt="Primeiro Slide - onde tem informações de ferramentas para front-end, como HTML, javascript, css e bootstrap" />
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/back-end[@1-1920x1009.png"
+            alt="Segundo Slide - ondem tem informações sobre as ferramentas de back-end que conheço, como php, codeigniter, python, Sql server e Mysql" />
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/extra@1-1920x1009.jpg"
+            alt="Terceiro Slide - onde contém informações sobre conhecimentos extras que tenho em git, github, spline, figma, Scrum e lgpd" />
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+    </div>
+    <p class="col-11 p-5">
+      A porcentagem em cada ferramenta representa o conhecimento que acredito
+      ter na mesma.
+    </p>
+
+    <!-- fim code slide -->
+  </main>
+
+  <footer id="contatos" class="bgFooter mt-5">
+    <nav class="navFooter pl-sm-0 row">
+      <h2 class="pt-3 p-sm-4 col-12 col-sm-4 col-md-4">
+        Informções para contato:
+      </h2>
+
+      <div class="aFooter pt-sm-4 pt-md-3 pt-lg-4 col-3 col-sm-1 col-md-1">
+        <a href="https://github.com/Allysson1" target="_blank">
+          <span class="bi bi-github icon"></span>
+        </a>
       </div>
 
-      <!-- inicio code slide -->
-
-
-      <h2 id="conhecimentos" class="p-5">Conhecimentos adquiridos em meus estudos:</h2>
-      <div id="carouselExampleIndicators" class="carousel slide sectionProject" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="images/frontend@2-1920x1009.png" alt="Primeiro Slide - onde tem informações de ferramentas para front-end, como HTML, javascript, css e bootstrap">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="images/back-end[@1-1920x1009.png" alt="Segundo Slide - ondem tem informações sobre as ferramentas de back-end que conheço, como php, codeigniter, python, Sql server e Mysql">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="images/extra@1-1920x1009.jpg" alt="Terceiro Slide - onde contém informações sobre conhecimentos extras que tenho em git, github, spline, figma, Scrum e lgpd">  
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Anterior</span>
+      <div class="aFooter pt-sm-4 pt-md-3 pt-lg-4 col-2 col-sm-1 col-md-1">
+        <a href="https://www.instagram.com/allyssonernandes/" target="_blank">
+          <span class="bi bi-instagram icon"></span>
         </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Próximo</span>
+      </div>
+
+      <div class="aFooter pt-sm-4 pt-md-3 pt-lg-4 col-2 col-sm-1 col-md-1">
+        <a href="https://www.linkedin.com/in/allysson-ernandes-6912451a5/" target="_blank">
+          <span class="bi bi-linkedin icon"></span>
         </a>
-      </div> 
-      <p class="col-11 p-5">A porcentagem em cada ferramenta representa o conhecimento que acredito ter na mesma.</p>
+      </div>
 
+      <div class="aFooter pt-sm-4 pt-md-3 pt-lg-4 col-2 col-sm-1 col-md-1">
+        <a href="https://wa.me/5511959516062?text=Oi,%20podemos%20Conversar?" target="_blank">
+          <span class="bi bi-whatsapp icon"></span>
+        </a>
+      </div>
 
-    
+      <div class="aFooter pt-sm-4 pt-md-3 pt-lg-4 col-5 col-sm-1 col-md-1">
+        <a href="mailto:allyssonoliveira12345@gmail.com" target="_blank">
+          <span class="bi bi-envelope icon"></span>
+        </a>
+      </div>
 
-      <!-- fim code slide -->
-    </main>
+      <div class="aFooter pt-sm-4 pt-md-3 pt-lg-4 col-2 col-sm-3 col-md-2">
+        <a href="#topo">
+          <span class="bi bi-chevron-double-up icon"></span>
+        </a>
+      </div>
+    </nav>
 
-    
+    <p class="pFooter col-12">Portfólio feito por Állysson</p>
+    <small class="col-12">Esse Portfólio foi feito exclusivamente para mostrar meus projetos
+    </small>
+  </footer>
 
-    <footer id="contatos" class="bgFooter mt-5">
-      
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
 
- 
-      <nav class="navFooter pl-sm-0 row">
-        
-        <h2 class="pt-3 p-sm-4 col-12 col-sm-4 col-md-4">Informções para contato:</h2>
-
-
-        <div class="aFooter pt-sm-4 pt-md-3 pt-lg-4 col-3 col-sm-1 col-md-1">
-          <a href="https://github.com/Allysson1" target="_blank">
-            <span class="bi bi-github icon"></span>
-          </a>
-        </div>
-        
-
-        <div class="aFooter pt-sm-4 pt-md-3 pt-lg-4 col-2 col-sm-1 col-md-1">
-          <a href="https://www.instagram.com/allyssonernandes/" target="_blank">
-            <span class="bi bi-instagram icon"></span>
-          </a>
-        </div>
-       
-        
-        <div class="aFooter pt-sm-4 pt-md-3 pt-lg-4 col-2 col-sm-1 col-md-1">
-          <a href="https://www.linkedin.com/in/allysson-ernandes-6912451a5/" target="_blank">
-            <span class="bi bi-linkedin icon"></span>
-          </a>
-        </div>
-        
-
-        <div class="aFooter pt-sm-4 pt-md-3 pt-lg-4 col-2 col-sm-1 col-md-1">
-          <a href="https://wa.me/5511959516062?text=Oi,%20podemos%20Conversar?" target="_blank">
-            <span class="bi bi-whatsapp icon"></span>
-          </a>
-        </div>
-        
-
-        <div class="aFooter pt-sm-4 pt-md-3 pt-lg-4 col-5 col-sm-1 col-md-1">
-          <a href="mailto:allyssonoliveira12345@gmail.com" target="_blank">
-            <span class="bi bi-envelope icon"></span>
-          </a>
-        </div>
-
-        <div class="aFooter pt-sm-4 pt-md-3 pt-lg-4 col-2 col-sm-3 col-md-2">
-          <a href="#topo">
-            <span class="bi bi-chevron-double-up icon"></span>
-          </a>
-        </div>
-        
-
-      </nav>
-
-      <p class="pFooter col-12">Portfólio feito por Állysson</p>
-      <small class="col-12"
-        >Esse Portfólio foi feito exclusivamente para mostrar meus projetos
-      </small>
-    </footer>
-
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
-  </body>
 </html>
